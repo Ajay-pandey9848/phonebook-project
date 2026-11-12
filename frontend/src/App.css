@@ -1,0 +1,144 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: #f4f6fc;
+  color: #17243e;
+}
+
+.app {
+  min-height: 100vh;
+}
+
+.header {
+  background: #17243e;
+  color: white;
+  text-align: center;
+  padding: 35px 20px;
+}
+
+.header h1 {
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+
+.header p {
+  color: #d5dbea;
+}
+
+.container {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 20px;
+}
+
+.form-section,
+.contacts-section {
+  background: white;
+  padding: 25px;
+  border-radius: 12px;
+  margin-bottom: 25px;
+  box-shadow: 0 3px 12px rgba(0, 0, 0, 0.05);
+}
+
+h2 {
+  margin-bottom: 20px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+input {
+  width: 100%;
+  padding: 13px;
+  border: 1px solid #d5dbea;
+  border-radius: 7px;
+  font-size: 15px;
+}
+
+button {
+  background: #3569e8;
+  color: white;
+  border: none;
+  padding: 13px;
+  border-radius: 7px;
+  cursor: pointer;
+  font-size: 15px;
+}
+
+button:hover {
+  background: #2452c7;
+}
+
+.contacts-heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.contacts-heading span {
+  color: #3569e8;
+  font-weight: bold;
+}
+
+.search-input {
+  margin-bottom: 20px;
+}
+
+.contact-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 17px;
+  background: #f4f6fc;
+  border-radius: 8px;
+  margin-bottom: 12px;
+}
+
+.contact-card h3 {
+  margin-bottom: 7px;
+}
+
+.contact-card p {
+  color: #667085;
+}
+
+.delete-button {
+  background: #dc3545;
+  padding: 9px 15px;
+}
+
+.delete-button:hover {
+  background: #b02a37;
+}
+
+.empty-message {
+  text-align: center;
+  color: #667085;
+  padding: 25px;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  color: #667085;
+}
+
+@media (max-width: 600px) {
+  .container {
+    margin: 20px auto;
+    padding: 12px;
+  }
+
+  .contact-card {
+    gap: 10px;
+  }
+}
